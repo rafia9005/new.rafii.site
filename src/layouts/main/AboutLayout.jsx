@@ -14,11 +14,11 @@ export default function AboutLayout() {
       setIsVisible(scrollY > 100);
 
       if (scrollY > 100) {
-        controls1.start({ opacity: 1, x: 0 });
-        controls2.start({ opacity: 1, x: 0 });
+        controls1.start({ opacity: 1, y: 0 });
+        controls2.start({ opacity: 1, y: 0 });
       } else {
-        controls1.start({ opacity: 0, x: 50 });
-        controls2.start({ opacity: 0, x: -50 });
+        controls1.start({ opacity: 0, y: 50 });
+        controls2.start({ opacity: 0, y: -50 });
       }
     };
 
@@ -34,7 +34,7 @@ export default function AboutLayout() {
       <div className="lg:flex block justify-evenly items-center" id="about">
         <motion.div
           className="box aspect-w-1 aspect-h-1 flex justify-center items-center"
-          initial={{ x: -50, opacity: 0 }}
+          initial={{ y: -50, opacity: 0 }}
           animate={controls2}
         >
           <img
@@ -45,7 +45,7 @@ export default function AboutLayout() {
         </motion.div>
         <motion.div
           className="box lg:text-start text-center"
-          initial={{ x: 50, opacity: 0 }}
+          initial={{ y: 50, opacity: 0 }}
           animate={controls1}
         >
           <h1 className="text-2xl lg:mt-0 mt-5">
