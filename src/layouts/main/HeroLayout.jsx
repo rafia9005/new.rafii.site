@@ -5,7 +5,7 @@ export default function HeroLayout() {
   return (
     <>
       <div className="hero" id="home">
-        <div className="box flex justify-center items-center h-[100vh] text-center">
+        <div className="box flex justify-center items-center h-[90vh] text-center">
           <div>
             <div className="flex justify-between items-center">
               <motion.img

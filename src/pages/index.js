@@ -4,6 +4,7 @@ import RootMiddleware from "@/middleware/root";
 import NavbarLayout from "@/layouts/main/NavbarLayout";
 import HeroLayout from "@/layouts/main/HeroLayout";
 import AboutLayout from "@/layouts/main/AboutLayout";
+import SkillsLayout from "@/layouts/main/SkillsLayout";
 
 export default function Home() {
   const [isLoading, setIsLoading] = useState(true);
@@ -40,6 +41,7 @@ export default function Home() {
           <NavbarLayout />
           <HeroLayout />
           <AboutLayout />
+          <SkillsLayout/>
         </>
       )}
     </RootMiddleware>
