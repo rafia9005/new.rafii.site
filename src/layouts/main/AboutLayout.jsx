@@ -51,22 +51,15 @@ export default function AboutLayout() {
           <h1 className="text-2xl lg:mt-0 mt-5">
             Ahmad Rafi'i - <b>Full-Stack Developer</b>
           </h1>
-          <p className="mt-5 lg:w-auto lg:mx-auto w-[90% mx-[5%]">
+          <p className="mt-5 lg:max-w-[600px] max-w[0] lg:w-auto lg:mx-auto w-[90%] mx-[5%]">
             Saya adalah Ahmad Rafi'i, seorang <b>Full-Stack Developer</b> dengan
-            <br className="lg:block hidden" />
             semangat untuk menciptakan solusi web yang inovatif. Dengan latar
-            <br className="lg:block hidden" />
             belakang dari <b>SMKN 6 Malang</b>, saya memiliki keahlian dalam
-            <br className="lg:block hidden" />
             menggabungkan teknologi <b>frontend</b> dan <b>backend</b> untuk
             menciptakan
-            <br className="lg:block hidden" />
             pengalaman pengguna yang luar biasa. Dalam setahun terakhir, saya
-            <br className="lg:block hidden" />
             telah membangun berbagai aplikasi yang efisien dan responsif. Saya
-            <br className="lg:block hidden" />
             senang memecahkan tantangan teknis dan selalu mencari peluang untuk
-            <br className="lg:block hidden" />
             belajar dan tumbuh dalam dunia pengembangan perangkat lunak.
           </p>
           <div className="mt-5">
