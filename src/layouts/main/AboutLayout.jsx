@@ -11,14 +11,10 @@ export default function AboutLayout() {
     const handleScroll = () => {
       const scrollY = window.scrollY;
 
-      setIsVisible(scrollY > 100);
-
-      if (scrollY > 100) {
+      if (!isVisible && scrollY > 100) {
+        setIsVisible(true);
         controls1.start({ opacity: 1, y: 0 });
         controls2.start({ opacity: 1, y: 0 });
-      } else {
-        controls1.start({ opacity: 0, y: 50 });
-        controls2.start({ opacity: 0, y: -50 });
       }
     };
 
@@ -27,7 +23,7 @@ export default function AboutLayout() {
     }
 
     return () => window.removeEventListener("scroll", handleScroll);
-  }, [controls1, controls2]);
+  }, [controls1, controls2, isVisible]);
 
   return (
     <>

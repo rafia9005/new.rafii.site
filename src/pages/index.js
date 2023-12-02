@@ -5,6 +5,7 @@ import NavbarLayout from "@/layouts/main/NavbarLayout";
 import HeroLayout from "@/layouts/main/HeroLayout";
 import AboutLayout from "@/layouts/main/AboutLayout";
 import SkillsLayout from "@/layouts/main/SkillsLayout";
+import ProjectLayout from "@/layouts/main/ProjectLayout";
 
 export default function Home() {
   const [isLoading, setIsLoading] = useState(true);
@@ -42,6 +43,7 @@ export default function Home() {
           <HeroLayout />
           <AboutLayout />
           <SkillsLayout/>
+          <ProjectLayout/>
         </>
       )}
     </RootMiddleware>
