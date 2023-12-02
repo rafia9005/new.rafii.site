@@ -10,7 +10,7 @@ export default function ProjectLayout() {
   };
 
   useEffect(() => {
-    controls.start({ opacity: 0, x: 200 });
+    controls.start({ opacity: 0, x: -200 });
     window.addEventListener("scroll", handleScroll);
     return () => {
       window.removeEventListener("scroll", handleScroll);
@@ -23,12 +23,12 @@ export default function ProjectLayout() {
         className="flex justify-end items-center px-[10%]"
         animate={controls}
       >
-        <div>
+        <div className="lg:mt-0 mt-5">
           <div>
-            <h1 className="text-[120px] text-end underline">Project</h1>
+            <h1 className="lg:text-[120px] text-end underline text-3xl">Project</h1>
           </div>
           <div>
-            <div className="mt-5">
+            <div className="mt-[70px]">
               <img
                 src="p1.png"
                 alt=""
@@ -37,7 +37,7 @@ export default function ProjectLayout() {
               <div className="flex justify-start items-center gap-[10px]">
               </div>
             </div>
-            <div className="mt-[60px]">
+            <div className="lg:mt-[60px] mt-[10px]">
               <img
                 src="p2.png"
                 alt=""
