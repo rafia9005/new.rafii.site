@@ -11,13 +11,7 @@ import FooterLayout from "@/layouts/main/FooterLayout";
 export default function Home() {
   return (
     <RootMiddleware>
-      
-          <NavbarLayout />
-          <HeroLayout />
-          <AboutLayout />
-          <SkillsLayout/>
-          <ProjectLayout/>
-          <FooterLayout/>
+      <h1>sorry this website off</h1>
     </RootMiddleware>
   );
 }
