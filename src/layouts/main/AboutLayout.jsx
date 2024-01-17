@@ -34,7 +34,7 @@ export default function AboutLayout() {
           animate={controls2}
         >
           <img
-            src="./pp.png"
+            src="https://avatars.githubusercontent.com/u/70046808?v=4"
             alt="my profile | rafii.site"
             className="border border-black rounded-md shadow-lg border-[2px] lg:w-[370px] w-[200px]"
           />
