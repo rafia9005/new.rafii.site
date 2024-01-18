@@ -7,6 +7,7 @@ export default function Document() {
       <Head>
         <title>rafii.site | Full-Stack Developer</title>
         <link rel="shortcut icon" href="pp.png" type="image/x-icon" />
+        <meta name="google-site-verification" content="R0MC-UVXADE-DisUut6B8A0GTHoWvKuvxjM0MhBEvIw" />
       </Head>
       <body>
         <NextTopLoader
