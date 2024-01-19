@@ -1,5 +1,6 @@
 import { Html, Head, Main, NextScript } from 'next/document'
 import NextTopLoader from 'nextjs-toploader';
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 export default function Document() {
   return (
@@ -10,6 +11,7 @@ export default function Document() {
         <meta name="google-site-verification" content="R0MC-UVXADE-DisUut6B8A0GTHoWvKuvxjM0MhBEvIw" />
       </Head>
       <body>
+        <SpeedInsights/>
         <NextTopLoader
           color="#2299DD"
           initialPosition={0.08}

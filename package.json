@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@vercel/speed-insights": "^1.0.5",
     "font-awesome": "^4.7.0",
     "framer-motion": "^10.6.8",
     "next": "14.0.3",
