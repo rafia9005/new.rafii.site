@@ -11,7 +11,6 @@ export default function Document() {
         <meta name="google-site-verification" content="R0MC-UVXADE-DisUut6B8A0GTHoWvKuvxjM0MhBEvIw" />
       </Head>
       <body>
-        <SpeedInsights/>
         <NextTopLoader
           color="#2299DD"
           initialPosition={0.08}
@@ -27,6 +26,7 @@ export default function Document() {
         />
         <Main />
         <NextScript />
+        <SpeedInsights/>
       </body>
     </Html>
   )
